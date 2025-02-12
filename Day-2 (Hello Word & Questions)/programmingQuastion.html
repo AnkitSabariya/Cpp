@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C & C++ Questions</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            height: 100vh;
+            background: #f4f7fc;
+            padding: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        fieldset {
+            width: 90%;
+            max-width: 500px;
+            background: #fff;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        legend {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #007bff;
+            padding: 10px 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #333;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 380px;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 900px) {
+            body {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="column">
+        <fieldset>
+            <legend>1. What is programming?</legend>
+            <h3>Programming jisme computer ko instructions diye jaate hain taaki wo specific tasks perform kar sake.</h3>
+        </fieldset>
+        <fieldset>
+            <legend>2. What is a translator in programming?</legend>
+            <h3>Translator (jo hum likhte hain) ko machine code (0s aur 1s) me convert karta hai, taki computer usko samajh sake aur execute kar sake.</h3>
+        </fieldset>
+        <fieldset>
+            <legend>3. Types of translators in C and C++?</legend>
+            <h3>Translator ke Do Types hote hai 1st Compiler 2nd Interpreter.</h3>
+        </fieldset>
+        <fieldset>
+            <legend>4. Difference between Compiler and Interpreter?</legend>
+            <h3>Compiler pura code ek sath translate karta hai.<br>Interpreter line-by-line translate karta hai.</h3>
+        </fieldset>
+    </div>
+
+    <div class="column">
+        <fieldset>
+            <legend>"Hello, World!" program in C language.</legend>
+            <img src="./assets/code.png" alt="C Program">
+        </fieldset>
+        <fieldset>
+            <legend>"Hello, World!" program in C++ language.</legend>
+            <img src="./assets/c++.png" alt="C++ Program">
+        </fieldset> 
+    </div>
+
+</body>
+</html>
