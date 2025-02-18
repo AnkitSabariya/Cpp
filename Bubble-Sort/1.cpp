@@ -31,7 +31,7 @@ int main()
     cout << "Sorted Array (Ascending Order): ";
             for (int i = 0; i < size; i++)
             {
-                cout << arr[i] << " ";
+                cout << arr[i] << "  ";
             }
             cout << endl;
 
