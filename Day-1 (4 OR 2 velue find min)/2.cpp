@@ -11,9 +11,9 @@ int main()
     // The minimum value is: 3
 
     int a, b;
-    cout << "Enter velue Of a = ";
+    cout << "Enter value Of a = ";
     cin >> a;
-    cout << "Enter velue Of b = ";
+    cout << "Enter value Of b = ";
     cin >> b;
    
     if (a < b)
