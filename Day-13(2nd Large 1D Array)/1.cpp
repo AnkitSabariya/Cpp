@@ -34,8 +34,8 @@ int main()
     {
         cout << box[i] << " ";
     }
-    cout << "----------------------\n";
     cout << "\n";
-    cout << "Minimum Value is : " << box[0] << endl;
-    cout << "Maximum Value is : " << box[size - 1];
+    cout << "----------------------\n";
+    cout << "Second Smallest : " << box[1] << endl;
+    cout << "Second Largest  : " << box[size - 2];
 }
