@@ -4,9 +4,9 @@ using namespace std;
 int main()
 { // 2D Diagonal sum
     int row, col, sum = 0;
-    cout << "Enter no. Of Rows : ";
+    cout << "Enter number of rows: ";
     cin >> row;
-    cout << "Enter no. Of columns : ";
+    cout << "Enter number of columns: ";
     cin >> col;
     int box[row][col];
 
