@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 { // Ascending Order //
-    int size, min,i;
+    int size, min, i;
     cout << "Enter Array Size : ";
     cin >> size;
     int box[size];
@@ -14,14 +14,12 @@ int main()
         cin >> box[i];
     }
 
-  
+    if (box[i] == box[i + 1])
+    {
+        box[i] = box[i + 1];
+    }
+    i--;
 
-        if (box[i] == box[i + 1])
-        {
-            box[i] = box[i + 1];
-        }
-        i--;
-    
     cout << "----------------------\n";
     cout << "|| Output: ||\n";
     cout << "Ascending Order :";

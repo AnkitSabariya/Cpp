@@ -13,19 +13,19 @@ int main()
   cin >> d;
   if (a < b && a < c && a < d)
   {
-    cout << "Enter velue Of a = " << a;
+    cout << "A Min velue = " << a;
   }
   else if (b < a && b < c && b < d)
   {
-    cout << "Min velue" << b;
+    cout << "B Min velue" << b;
   }
 
   else if (c < a && c < b && c < d)
   {
-    cout << "Min velue  = " << c;
+    cout << "C Min velue  = " << c;
   }
   else
   {
-    cout << "Min velue = " << d;
+    cout << "D Min velue = " << d;
   }
 }
