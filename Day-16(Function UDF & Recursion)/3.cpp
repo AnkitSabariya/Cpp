@@ -7,7 +7,7 @@ char vowel(char c)
 
     }
     else{
-        cout <<"Consonant...                               ";
+        cout <<"Consonant...";
 
     }
     return 0;

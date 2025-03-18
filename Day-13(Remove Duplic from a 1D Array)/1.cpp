@@ -13,11 +13,15 @@ int main()
         cout << "Enter Value [" << i << "] : ";
         cin >> box[i];
     }
-
-    if (box[i] == box[i + 1])
+    for (int i = 0; i < size; i++)
     {
-        box[i] = box[i + 1];
+        if (box[i] == box[i + 1])
+        {
+            box[i] = box[i + 1];
+        }
     }
+
+  
     i--;
 
     cout << "----------------------\n";

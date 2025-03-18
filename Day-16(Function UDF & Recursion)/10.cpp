@@ -15,9 +15,13 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
-        temp *= n;
+        temp *= m; // temp = temp * m;
+        cout <<"["<< i <<"] "<< temp << " " << endl;
     }
 
-    cout << "---------------------------------------------------------";
+
+    cout << "---------------------------------------------------------\n";
     cout << "The Value of " << m << " to the power " << n << " is : " << temp;
 }
+
+
