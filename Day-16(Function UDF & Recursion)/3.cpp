@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-char sum(char c)
+char vowel(char c)
 {
     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
         cout <<"Vowel...";
@@ -21,5 +21,5 @@ int main()
 
     cout <<"-------------------------\n";
 
-      sum(a);
+      vowel(a);
 }
