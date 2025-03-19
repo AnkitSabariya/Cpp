@@ -1,25 +1,34 @@
 #include <iostream>
 using namespace std;
-char fact(int n)
+
+int fact(int n)
 {
     if (n <= 1)
     {
+        cout << "fact(" << n << ") = 1 (Base Case)" << endl;
         return 1;
     }
     else
     {
-        return n * fact(n - 1);
+        int result = n * fact(n - 1);
+        cout << "fact(" << n << ") = " << n << " * fact(" << n - 1 << ") = " << result << endl;
+        return result;
     }
-    return 0;
 }
+
 int main()
 {
     int a;
 
-    cout << "Enter The  value : ";
+    cout << "Enter The Value: ";
     cin >> a;
 
     cout << "-------------------------\n";
 
-    cout <<"Factorial is : " << fact(a);
+    int ans = fact(a);
+
+    cout << "-------------------------\n";
+    cout << "Final Factorial: " << ans << endl;
+
+    return 0;
 }

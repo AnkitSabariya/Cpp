@@ -1,35 +1,37 @@
 #include <iostream>
 using namespace std;
-int fact(int a,int b)
-{ 
 
-    if (b == 0)
+int power(int m, int n)
+{ 
+    if (n == 0) 
     {
+        cout << "power(" << m << ", " << n << ") = 1 (Base Case)" << endl;
         return 1;
     }
     else
     {
-
-        return a * fact(a,b - 1);
-       // pow(3,4)  = 3 * (3,3) 
-       //           = 3 * (3,2) 
-       //           = 3 * (3,1) 9
-       //           = 3 * (3,0) 3
+        int result = m * power(m, n - 1);
+        cout << "power(" << m << ", " << n << ") = " << m << " * power(" << m << ", " << n - 1 << ") = " << result << endl;
+        return result;
     }
-    
 }
+
 int main()
 {
-    int m,n,ans;
+    int m, n, ans;
 
-    cout << "Enter exponent :";
+    cout << "Enter base (m): ";
     cin >> m;
-    cout << "Enter Base";
-    cin >>n;
+    
+    cout << "Enter exponent (n): ";
+    cin >> n;
 
     cout << "-------------------------\n";
-    ans = fact(m,n);
     
+    ans = power(m, n); 
 
-    cout <<"Factorial is : " << ans;
+    cout << "-------------------------\n";
+    cout << "Final Result: " << ans << endl;
+
+    return 0;
 }
