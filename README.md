@@ -1,7 +1,8 @@
-📌 Pending Tasks
+# 📌 Pending Tasks
 
-Array Remove Duplicate (1D Array) – Due: March 7, Classroom Task
+#### 1. Array Remove Duplicate (1D Array) – Due: March 7, Classroom Task
 
-Spiral Order (2D Array) – Discord Task Pending
+#### 2. Spiral Order (2D Array) – Discord Task Pending
 
-CRUD Operation Insert Confusion 
+#### 3. CRUD Operation Insert Confusion 
+#### 4. Reverse string
