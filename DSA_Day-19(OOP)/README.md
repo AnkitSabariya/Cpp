@@ -4,32 +4,34 @@ Welcome to the **Object-Oriented Programming (OOP)** section of the C++ reposito
 
 ---
 
-## 📌 **Folder Structure**
+## 📌 **Folder Structure with ppt-[10.1-10.7]**
 
 ```
 📘 OOP in C++
 │
 ├── 🟢 1. Data Abstraction
-│   ├── 🛡️ Access Modifiers (Public, Private, Protected)
-│   ├── 🏗️ Abstract Classes
+│   ├── 🛡️ 10.1 Access Modifiers (Public, Private, Protected)  
+│   ├── 🏗️ 10.7 Abstract Classes
 │   └── 🔗 Interfaces
 │
-├── 🔵 2. Data Encapsulation
-│   ├── 🛠️ Setters and Getters
-│   ├── 🏗️ Constructors and Destructors
-│   ├── 🧱 this Keyword
-│   └── 📌 Static Keyword
+├── 🔵 2. Data Encapsulation-[10.2]
+│   ├── 🛠️ 10.2 Setters and Getters
+│   ├── 🏗️ 10.4 Constructors and Destructors
+│   ├── 🧱 10.2 this Keyword
+│   ├── 📌 10.3 Static Keyword
+│   └── 🧰 10.3 Arrays of Objects
 │
-├── 🟠 3. Inheritance
-│   ├── 🧬 Single Inheritance
-│   ├── 🌐 Multilevel Inheritance
-│   ├── 🔗 Multiple Inheritance
-│   ├── 📤 Hierarchical Inheritance
-│   └── 🌀 Hybrid Inheritance
+├── 🟠 3. Inheritance-[10.5]
+│   ├── 🧬 10.5 Single Inheritance
+│   ├── 🌐 10.5 Multilevel Inheritance
+│   ├── 🔗 10.5 Multiple Inheritance
+│   ├── 📤 10.5 Hierarchical Inheritance
+│   ├── 🌀 10.5 Hybrid Inheritance
+│   └── 🔎 10.3 Scope Resolution Operator
 │
-├── 🟣 4. Polymorphism
-│   ├── 🔄 Method Overloading
-│   ├── 🔁 Method Overriding
+├── 🟣 4. Polymorphism-[10.6]
+│   ├── 🔄 10.6 Method Overloading
+│   ├── 🔁 10.6 Method Overriding
 │   └── ➕ Operator Overloading
 │
 └── 🚀 Projects
