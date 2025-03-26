@@ -17,9 +17,8 @@ Welcome to the **Object-Oriented Programming (OOP)** section of the C++ reposito
 ├── 🔵 2. Data Encapsulation-[10.2]
 │   ├── 🛠️ 10.2 Setters and Getters
 │   ├── 🏗️ 10.4 Constructors and Destructors
-│   ├── 🧱 10.2 this Keyword
-│   ├── 📌 10.3 Static Keyword
-│   └── 🧰 10.3 Arrays of Objects
+│   ├── 🧱 10.2 this Keyword(Array of Objects)
+│   └── 📌 10.3 Static Keyword   
 │
 ├── 🟠 3. Inheritance-[10.5]
 │   ├── 🧬 10.5 Single Inheritance
