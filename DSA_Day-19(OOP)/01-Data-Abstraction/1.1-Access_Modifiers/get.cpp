@@ -4,13 +4,13 @@ using namespace std;
 // Class Declaration
 class Teacher
 {
-
-public:
+    private:
+    int salary;
     string name;
     string subject;
     string batch;
-    int salary;
-
+    // mathod are public so access private variable to all in code 
+    public:
     void setdetails(string a, string b, string c, int d)
     {
         name = a;
