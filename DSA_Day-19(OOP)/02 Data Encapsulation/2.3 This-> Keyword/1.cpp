@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
-
+// Array of objects
+// Syntax of creating an array of objects in main() function
+// class_name object_name[size];
+// Ankit a[1];
 class car
 {
 private:
