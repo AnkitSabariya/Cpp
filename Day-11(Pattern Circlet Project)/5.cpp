@@ -22,8 +22,8 @@ int main()
         {
             cout << j<<" ";
         }
-        // Right  // (j >= i -1 || j >=i ) alternative
-          for (int j = 4; j >= i-1; j--) //(5[i]-1) = 4 (4 > 4) p(-)
+        // Right  // (j > i -1 || j >=i ) alternative
+          for (int j = 4; j >= i; j--) //(5[i]-1) = 4 (4 > 4) p(-)
         {                               //(4[i]-1) = 3 (4 > 3) p(4) 3 not include because = not 
             cout << j<<" ";             //(3[i]-1) = 2 (4 > 2) p(4,3)
         }                               //(2[i]-1) = 1 (4 > 1) p(4,3,2)
