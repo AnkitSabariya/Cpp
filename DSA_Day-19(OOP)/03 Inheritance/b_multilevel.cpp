@@ -20,12 +20,19 @@ public:
         cout << "This is the First Child class" << endl;
     }
 };
-
+class child1 : public child
+{
+public:
+    void display1()
+    {
+        cout << "This is the Second Child class" << endl;
+    }
+};
 
 int main()
 {
-    child obj;
+    child1 obj;
     obj.show();
     obj.display();
-
+    obj.display1();
 }
