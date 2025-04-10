@@ -49,7 +49,6 @@ the four core principles of OOP: **Abstraction**, **Encapsulation**, **Inheritan
 │   └── ➕ Operator Overloading
 │
 └── 🚀 Projects
-    ├── 🏫 Mini Project 1 (Class Management System)
     └── 🏦 Mini Project 2 (Bank Management System)
 ```
 
