@@ -4,9 +4,13 @@
 
 #### 2. Spiral Order (2D Array) – Discord Task Pending
 
-#### 3. CRUD Operation Insert Confusion 
+#### 3. CRUD Operation Insert Confusion
 #### 4. 11.1 , 11.2 pending
 #### 4. 12.1 , 12.2 pending
+#### 5. 🧠 Memory Management Visualization – Today’s Task
+
+---
+
 # 🚀 C++ DSA-Zero-To-Advanced
 
 A complete beginner-to-advanced journey of **C++ programming**, organized for ✨ clarity, 💻 hands-on practice, and 💡concept mastery.
@@ -28,7 +32,7 @@ A complete beginner-to-advanced journey of **C++ programming**, organized for �
 🔸 Nested Conditions  
 🔸 Ladder  
 🔸 Grading System  
-🔸 Lightbill Generator
+🔸 4 OR 2 Find min
 
 ---
 
@@ -44,7 +48,7 @@ A complete beginner-to-advanced journey of **C++ programming**, organized for �
 🔁 Do-While  
 🔂 For Loop  
 🗓️ Leap Year  
-🧬 Fibonacci Series
+✂️  Skip 3 Charactor
 
 ---
 
@@ -75,11 +79,22 @@ A complete beginner-to-advanced journey of **C++ programming**, organized for �
 🧑‍💻 UDF (User Defined)  
 🔁 Recursion  
 🧮 Calculator  
-📦 Argument Passing
+📦 Argument Passing  
+📋 Function Template Examples
 
 ---
 
-### 🧱 08 - OOP (Object-Oriented Programming)
+### 📌 08 - Pointers
+📍 Basics of Pointers  
+🧮 Pointers with Arrays  
+🔗 Pointer to Pointer  
+🧠 Pointer with Functions  
+💾 Dynamic Memory Allocation  
+🧩 Quiz & Practice
+
+---
+
+### 🧱 09 - OOP (Object-Oriented Programming)
 📍 Data Abstraction  
 🔐 Encapsulation  
 🧬 Inheritance  
@@ -88,28 +103,30 @@ A complete beginner-to-advanced journey of **C++ programming**, organized for �
 
 ---
 
-### 🧩 09 - Projects
+### ⚙️ 10 - Memory Structure & Templates
+🧠 Memory Areas (Stack, Heap, Data, Code)  
+🔍 Static vs Dynamic Memory Allocation Visualization  
+📐 Function Templates  
+📦 Memory Layout Output with Address Summary
+
+---
+
+### 📦 11 - Vectors in STL
+➕ push_back() / pop_back()  
+🧩 insert(), erase(), clear()  
+📏 size(), empty(), at()  
+🏁 front(), back(), begin(), end()
+
+---
+
+### 🧩 100 - Projects
 🎯 Mini Projects:  
 ➡️ Lightbill  
 ➡️ Grading  
-➡️ Patterns Generator
-
----
-
-### 📚 10 - Notes & References
-📝 Markdowns  
-📑 Cheat Sheets  
-🧠 Important Formulas
-
----
-
-### 📌 11 - Pointers
-📍 Basics of Pointers  
-🧮 Pointers with Arrays  
-🔗 Pointer to Pointer  
-🧠 Pointer with Functions  
-💾 Dynamic Memory Allocation  
-🧩 Quiz & Practice
+➡️ Patterns Generator  
+➡️ Fibonacci Series  
+➡️ 2D Array row & col Sum  
+➡️ Table function infinite
 
 ---
 
@@ -136,6 +153,4 @@ A complete beginner-to-advanced journey of **C++ programming**, organized for �
 > 🚨 Stay consistent. Build. Break. Fix. Repeat. That’s how you grow.
 
 ---
-
-
 

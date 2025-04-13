@@ -5,7 +5,7 @@ using namespace std;
 class Ankit
 {
 
-    // Constructor overloading
+    // Constructor overridding
 public:
     string name;
     void get()
@@ -13,7 +13,7 @@ public:
         cout << "I'm Parrent.." << endl;
     }
 };
-// Function overloading
+// Function overlridding
 class Function : public Ankit
 {
 public:
