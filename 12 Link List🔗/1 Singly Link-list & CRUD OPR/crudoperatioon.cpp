@@ -23,15 +23,15 @@ public:
     }
     void push_front(int val)
     {
-        Node *n1 = new Node(val);
+        Node *newnode = new Node(val);
         if (head == NULL)
         {
-            head = tail = n1;
+            head = tail = newnode;
         }
         else
         {
-            n1->next = head;
-            head = n1;
+            newnode->next = head;
+            head = newnode;
         }
     }
     // Traverce Link List
