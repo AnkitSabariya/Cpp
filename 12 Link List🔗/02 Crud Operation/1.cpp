@@ -21,6 +21,7 @@ public:
     {
         head = tail = NULL;
     }
+    
     // Beginning OF The List
     void push_front(int val)
     {
@@ -35,7 +36,8 @@ public:
             head = newnode;
         }
     }
-    // Beginning OF The List
+
+    // At any position (fixed logic)
     void insert(int val)
     {
         Node *newnode = new Node(val);
@@ -105,66 +107,74 @@ int main()
         {
             // =================== Insert ========================
         case 1:
-            cout << "You Selected Insert :-" << endl;
-            cout << "PRESS 1 For PushFront" << endl;
-            cout << "PRESS 2 For Insert" << endl;
-            cout << "PRESS 3 For Pushback" << endl;
-            cout << "Choice: ";
-            cin >> insertchoice;
-
-            switch (insertchoice)
+            do
             {
-                // Starting
-            case 1:
-                cout << "How many Nodes Add from starting: ";
-                cin >> loop;
+                /* code */
 
-                for (int i = 0; i < loop; i++)
+                cout << "You Selected Insert :-" << endl;
+                cout << "PRESS 1 For PushFront" << endl;
+                cout << "PRESS 2 For Insert" << endl;
+                cout << "PRESS 3 For Pushback" << endl;
+                cout << "Choice: ";
+                cin >> insertchoice;
+
+                switch (insertchoice)
                 {
+                    // Starting
+                case 1:
+                    cout << "How many Nodes Add from starting: ";
+                    cin >> loop;
 
-                    cout << "Enter value to push front: ";
-                    cin >> val;
-                    list.push_front(val);
+                    for (int i = 0; i < loop; i++)
+                    {
+
+                        cout << "Enter value to push front: ";
+                        cin >> val;
+                        list.push_front(val);
+                    }
+
+                    cout << "Push_Front Successfully...." << endl;
+
+                    // At any position
+                case 2:
+                    cout << "How many Nodes Add from inserting: ";
+                    cin >> loop;
+
+                    for (int i = 0; i < loop; i++)
+                    {
+
+                        cout << "Enter value to push front: ";
+                        cin >> val;
+                        list.insert(val);
+                    }
+
+                    cout << "insert Successfully...." << endl;
+                    break;
+
+                    // Ending
+                case 3:
+                    cout << "How many Nodes Add from Ending: ";
+                    cin >> loop;
+
+                    for (int i = 0; i < loop; i++)
+                    {
+
+                        cout << "Enter value to push Back: ";
+                        cin >> val;
+                        list.push_back(val);
+                    }
+
+                    cout << "Push_Back Successfully...." << endl;
+                    break;
+                case 0:
+                    cout << "Returning to Main Menu..." << endl;
+                    break;
+
+                default:
+                    cout << "Invalid Insert Choice" << endl;
+                    break;
                 }
-
-                cout << "Push_Front Successfully...." << endl;
-
-                // At any position
-            case 2:
-                cout << "How many Nodes Add from starting: ";
-                cin >> loop;
-
-                for (int i = 0; i < loop; i++)
-                {
-
-                    cout << "Enter value to push front: ";
-                    cin >> val;
-                    list.insert(val);
-                }
-
-                cout << "insert Successfully...." << endl;
-                break;
-
-                // Ending
-            case 3:
-                cout << "How many Nodes Add from Ending: ";
-                cin >> loop;
-
-                for (int i = 0; i < loop; i++)
-                {
-
-                    cout << "Enter value to push Back: ";
-                    cin >> val;
-                    list.push_front(val);
-                }
-
-                cout << "Push_Back Successfully...." << endl;
-                break;
-
-            default:
-                cout << "Invalid Insert Choice" << endl;
-                break;
-            }
+            } while (insertchoice != 0);
 
             break;
         case 2:

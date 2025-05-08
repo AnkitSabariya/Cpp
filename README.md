@@ -1,18 +1,20 @@
 # 📌 Pending Tasks
-
-#### A 11.2 DMA With Procedural & OOP Way
-#### B 12.3 Vector exercise
-#### C 13.1 Link List 4 type in 3 pending and 13.4,5 crud
-#### D 13.1 Link List 4 type in 3 pending and crud
-#### E 14.3 Stack in Binary Decimal
-#### F 15.1 Queue
-
-
 #### 1. Array Remove Duplicate (1D Array) – Due: March 7, Classroom Task
 
 #### 2. Spiral Order (2D Array) – Discord Task Pending
 
 #### 3. CRUD Operation Insert Confusion
+
+#### A 11.2 DMA With Procedural & OOP Way
+#### B 12.3 Vector exercise
+#### C and 13.4,5 crud
+#### D 14.3 Stack in Binary Decimal
+#### E 15.1 Queue
+#### Extra 
+####  13.1 Link List 4 type in 3 pending
+
+
+
 
 
 ---
