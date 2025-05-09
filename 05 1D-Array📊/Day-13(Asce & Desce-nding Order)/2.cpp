@@ -8,6 +8,7 @@ int main()
     int min = box[0];
     cout << "Enter Array Size : ";
     cin >> size;
+    vector<int> box(size); 
 
     cout << "--------------------Enter Value [0 to " << size << "]-------------------------  \n";
     for (int i = 0; i < size; i++)
@@ -23,7 +24,7 @@ int main()
             min = box[i];
         }
     }
-    cout <<"-------------------------------" << endl;
+    cout << "-------------------------------" << endl;
 
     cout << "Maximum Value is : " << min << endl;
 }
