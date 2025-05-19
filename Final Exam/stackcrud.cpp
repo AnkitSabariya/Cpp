@@ -22,7 +22,7 @@ void pop(int stack[], int &top)
         return;
     }
 
-    cout << stack[top] << " popped successfully.\n";
+    cout << stack[top] << "popped successfully..\n";
     top--;
 }
 
