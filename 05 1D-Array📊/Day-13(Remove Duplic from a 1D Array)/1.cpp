@@ -1,39 +1,43 @@
 #include <iostream>
+#include <algorithm> // for sort()
 using namespace std;
 
 int main()
-{ // Ascending Order //
-    int size, min, i;
+{
+    int size;
     cout << "Enter Array Size : ";
     cin >> size;
     int box[size];
-    cout << "--------------------Enter Value [0 to " << size << "]-----------------------  \n";
+
+    cout << "-------------------- Enter Values --------------------\n";
     for (int i = 0; i < size; i++)
     {
         cout << "Enter Value [" << i << "] : ";
         cin >> box[i];
     }
+
+    // Step 1: Sort array
+    sort(box, box + size);
+
+    // Step 2: Remove duplicates
+    int temp[size];
+    int j = 0;
     for (int i = 0; i < size; i++)
     {
-        if (box[i] == box[i + 1])
+        if (i == 0 || box[i] != box[i - 1]) // unique check
         {
-            box[i] = box[i + 1];
+            temp[j++] = box[i];
         }
     }
 
-  
-    i--;
-
+    // Step 3: Show Output
     cout << "----------------------\n";
-    cout << "|| Output: ||\n";
-    cout << "Ascending Order :";
-    for (int i = 0; i < size; i++)
+    cout << "Unique Values (After Removing Duplicates): ";
+    for (int i = 0; i < j; i++)
     {
-        cout << box[i] << " ";
+        cout << temp[i] << " ";
     }
-    cout << "\n";
-    cout << "----------------------\n";
+    cout << "\n----------------------\n";
 
-    cout << "Minimum Value is : " << box[0] << endl;
-    cout << "Maximum Value is : " << box[size - 1];
+    return 0;
 }
